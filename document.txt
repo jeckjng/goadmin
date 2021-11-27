@@ -1,0 +1,6 @@
+============================================================
+linux 编译
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o runproduct main.go
+运行：./runproduct &
+守护运行：daemonize /home/wwwroot/goadmin/runproduct &
+============================================================
